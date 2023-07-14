@@ -1,0 +1,41 @@
+<!-- basket -->
+        <div class="basket container">
+            <div class="basket-top position-relative">
+                <h2>Корзина</h2>
+                <i class="fa-solid fa-xmark close-basket"></i>
+            </div>
+            <div class="basket-products mt-5" id="basket">
+                <div class="basket-product d-flex justify-content-between mt-4">
+                    <div class="product-image">
+                        <img src="./images/product1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="prod-details">
+                        <p class="product-title mt-2">Косметичка непромокаемая, 31/22/11 см</p>
+                        <div class="counter-price d-flex" style="gap: 20px;">
+                            <div class="product-counter d-flex flex-column" style="margin-top: -10px;">
+                                <p>количество</p>
+                                <div class="counter d-flex" style="gap: 3px;margin-top: -12px;">
+                                    <span class="decrease"><i class="fa-solid fa-angle-left"></i></span>
+                                    <span class="counter-value">0</span>
+                                    <span class="increase"><i class="fa-solid fa-angle-right"></i></span>
+                                </div>
+                            </div>
+                            <div class="product-prices d-flex flex-column align-items-center">
+                                <span>цена</span>
+                                <h5 class="product-price">123 ₽</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="like-remove d-flex flex-column justify-content-between">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-trash-can cart-remove"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="basket-footer d-flex flex-column align-items-center">
+                <h2>Сумма заказа 1 234 ₽</h2>
+                <span>До оптовой цены не хватает 3 766 ₽</span>
+                <button class="basket-footer-btn">оформить заказ</button>
+            </div>
+        </div>
